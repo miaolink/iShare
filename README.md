@@ -64,6 +64,14 @@ Windows 一站式私有打印与文件共享工具，门店与办公室都能用
 
 商用 / 门店 / 企业：**18670334431** · [ishare.miaolink.cn](https://ishare.miaolink.cn/)
 
+### 其他平台定制
+
+公开 Releases 目前提供 **Windows x64** 安装包。
+
+如需 **macOS**、**Linux** 或 **OpenWrt 专用版**，可联系作者按场景定制（功能范围与交付方式面议）。
+
+联系：**18670334431** · [ishare.miaolink.cn](https://ishare.miaolink.cn/) · 软件内「关于」页客服企微
+
 ---
 
 ## 四大核心能力
@@ -165,6 +173,9 @@ iShare 复用你现有的 USB / 网线打印机，额外提供一人一码网页
 
 **Q：个人用户要收费吗？**  
 个人完全免费，只要单日不超过 **50 页**。正常人一天通常打不到 50 页，等于免费用。超过按商用处理，门店 / 企业请联系授权。
+
+**Q：有 macOS / Linux / OpenWrt 版本吗？**  
+公开下载目前为 Windows 版。macOS、Linux 以及 OpenWrt 专用版可按需定制，请联系作者。
 
 ---
 
