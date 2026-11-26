@@ -1,0 +1,9 @@
+*.exe
+*.zip
+*.7z
+*.dll
+*.pdb
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
