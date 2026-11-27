@@ -150,7 +150,8 @@ Windows 一站式私有打印与文件共享工具，门店与办公室都能用
 
 - Windows 10 / 11（64 位）
 - 建议安装 [Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/)（安装包会检测）
-- 网页打印 Office 文档需本机已安装 Microsoft Office
+- 网页打印 Word / Excel / PPT：本机安装 **Microsoft Office 或 WPS** 即可（设置里可选自动 / 仅 Office / 仅 WPS）
+- 手机隔空打印发现不稳定时，可另装 [Bonjour Print Services](https://support.apple.com/kb/DL999)（可选，非必须）
 
 ---
 
@@ -167,6 +168,12 @@ iShare 复用你现有的 USB / 网线打印机，额外提供一人一码网页
 
 **Q：用户不在店里能不能打？**  
 可以。开通云打印后，把专属链接或二维码发给对方，即可远程网页送印到你店里的机器。
+
+**Q：只有 WPS、没有 Microsoft Office 能打 Word 吗？**  
+可以。在「设置」把 Office 文档打印引擎选为 **自动**（默认）或 **仅 WPS**；PDF / 图片不依赖 Office/WPS。
+
+**Q：还要不要装苹果 Bonjour？**  
+一般不用。iShare 自带广播；若手机长时间搜不到打印机，再装 Bonjour Print Services 通常更稳。
 
 **Q：文件会不会上传到云端？**  
 局域网打印与共享都在本地完成。云打印通道只做转发，**不保存、不查看**文件内容。
