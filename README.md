@@ -45,7 +45,7 @@ Windows 一站式私有打印与文件共享工具，门店与办公室都能用
 
 | 文件 | 说明 |
 |------|------|
-| `iShare-amd64-installer.exe` | Windows x64 正式安装程序（推荐） |
+| `iShare-v*-amd64-installer.exe` | Windows x64 正式安装程序（文件名含版本号，推荐） |
 
 安装后开始菜单 / 桌面为「iShare 爱分享·云打印」。
 
