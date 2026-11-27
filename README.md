@@ -7,7 +7,7 @@ Windows 一站式私有打印与文件共享工具，门店与办公室都能用
 > 关键词：AirPrint 隔空打印 · 无 Wi‑Fi 打印机 · iPhone 无线打印 · USB 打印机共享 · 一人一码 · 网页在线打印 · 扫码打印 · 打印计费统计 · 远程打印 · 云打印 · 局域网文件共享
 
 本仓库**仅发布安装包与产品说明**，**不提供源代码**。版权归 Allinpol / 长沙融合网络科技有限公司，见 [LICENSE](LICENSE)。  
-官网：[iShare.miaolink.cn](https://iShare.miaolink.cn) · 下载见下方 [Releases](../../releases)
+官网：[iShare.miaolink.cn](https://iShare.miaolink.cn) · 下载优先 [国内 CDN](https://img.miaolink.cn/file/iShare-v1.0.6-amd64-installer.exe)，[GitHub Releases](../../releases) 备用
 
 ---
 
@@ -41,15 +41,16 @@ Windows 一站式私有打印与文件共享工具，门店与办公室都能用
 
 ## 下载（免费版）
 
-请到 **[Releases](../../releases/latest)** 下载最新安装包：
+**优先国内 CDN**（推荐），GitHub Releases 为备用：
 
-| 文件 | 说明 |
+| 渠道 | 地址 |
 |------|------|
-| `iShare-v*-amd64-installer.exe` | Windows x64 正式安装程序（文件名含版本号，推荐） |
+| **CDN 高速下载** | https://img.miaolink.cn/file/iShare-v1.0.6-amd64-installer.exe |
+| GitHub 备用 | [Releases / v1.0.6](../../releases/tag/v1.0.6) · `iShare-v1.0.6-amd64-installer.exe` |
 
 安装后开始菜单 / 桌面为「iShare 爱分享·云打印」。
 
-> 部分杀毒可能提示未知发布者。请以本仓库官方 Release 为准；拦截时加入信任即可。
+> 部分杀毒可能提示未知发布者。请以本仓库官方 Release 或官网 CDN 为准；拦截时加入信任即可。
 
 ### 个人完全免费（≤50 页/日）
 
