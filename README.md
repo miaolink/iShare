@@ -11,6 +11,40 @@ Windows 一站式私有打印与文件共享工具，门店与办公室都能用
 
 ---
 
+## 原理一图看懂（小白版）
+
+**打印机本身不用有 Wi‑Fi。** 把它接到一台跑 iShare 的主机上，这台主机连上网，手机就能打。
+
+```text
+任意打印机（USB / 网线）
+        │
+        ▼
+装有 iShare 的主机
+（Windows 电脑；也可定制 OpenWrt 路由 / 虚拟机）
+        │
+        ▼
+接入同一网络（同一 Wi‑Fi / 局域网）
+        │
+        ├──► 手机「隔空打印」直接出纸
+        ├──► 扫一人一码二维码送印
+        └──► 浏览器网页上传文件打印
+```
+
+```mermaid
+flowchart LR
+  P[任意打印机<br/>USB / 网线] --> H[装 iShare 的主机<br/>Windows / OpenWrt / 虚拟机]
+  H --> N[接入同一网络]
+  N --> A[隔空打印]
+  N --> B[扫码打印]
+  N --> C[网页上传]
+```
+
+一句话：**打印机 → 跑 iShare 的电脑 → 连上网 → 手机三种方式出纸。**
+
+官网可视化路线图：[ishare.miaolink.cn/#how](https://ishare.miaolink.cn/#how)
+
+---
+
 ## About · 为什么选 iShare
 
 很多家庭和门店的打印机**本身没有 Wi‑Fi**，只连在 Windows 电脑上（USB 或网线），苹果手机、iPad、Mac 的「隔空打印」里根本搜不到。买一台带 AirPrint 的新机贵，换整套设备也不值。
